@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Stage 1 -2') {
           steps {
-            build(job: 'hp1', quietPeriod: 2)
+            build(job: 'example-maven-project', quietPeriod: 2)
           }
         }
       }
